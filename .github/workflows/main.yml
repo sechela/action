@@ -1,0 +1,2 @@
+  - name: Say Hello
+    run: echo "Hello, GitHub Actions! I’m learning this!"
