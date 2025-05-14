@@ -1,12 +1,11 @@
-name: hello-world
+name: Hussain-Project
 on: push
-
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: Create Folder
-        run: mkdir Hussain
+        run: mkdir Anita
 
       - name: Show Folders
         run: ls -la
