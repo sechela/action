@@ -9,3 +9,6 @@ jobs:
 
       - name: Show Files
         run: ls -l
+
+      - name: Access Google website
+        run: curl "https://www.gamingboard.go.tz/"
