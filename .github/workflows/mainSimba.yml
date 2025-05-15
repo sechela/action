@@ -1,0 +1,11 @@
+name: Simba-App
+on: push
+jobs:
+  simba-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create File
+        run: touch emmanuel.php
+
+      - name: Show Files
+        run: ls -l
